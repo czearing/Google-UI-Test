@@ -1,0 +1,76 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Roboto", arial, sans-serif;
+}
+
+.Logo {
+  position: absolute;
+  top: 17%;
+}
+
+.App {
+  text-align: center;
+  background: #eaeaea;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.SearchBox {
+  height: 40px;
+  width: 40vw;
+  max-width: 60vw;
+  border-radius: 999px;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.3);
+  border: 0;
+  margin-bottom: 40px;
+}
+
+.LinkRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.LinkTile {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+}
+
+.LinkTile:hover {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+
+.LinkIcon {
+  background: white;
+  border: 1px solid #ddd;
+  width: 60px;
+  height: 60px;
+  border-radius: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.LinkLabel {
+  font-size: 12px;
+  font-weight: bold;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 4px 16px;
+  border-radius: 99px;
+}
